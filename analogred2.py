@@ -19,6 +19,9 @@ class Rugbychampion(Resource):
        rugbychamps[rug_id] = request.form['data']
        return {rug_id: rugbychamps[rug_id]}
 
+# Next part of code is a solution to append data as a new element in list
+# If my dictionary rugbychamps has nested list inside, PUT command will append value from "data" to the list
+# This function isn't realised yet
 
 #    def put(self, rug_id):
 #        if isinstance(rugbychamps[rug_id]) == list:
