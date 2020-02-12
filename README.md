@@ -8,3 +8,6 @@
 + запуск python3 analogred2.py
 + http запросы при помощи утилиты curl или библиотеки httpie. Например, POST запрос curl http://localhost:5000/year1987 -d "data=Australia" -X PUT выдаст результат 'year1987':'Australia'
 + результат также можно видеть на localhost:5000
+
+### Запуск приложения (при помощи Docker)
+- docker run -p 8888:5000 krast47/analogred2
